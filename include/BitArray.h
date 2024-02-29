@@ -3,6 +3,7 @@
 
 #include <iostream> // IO access
 #include <algorithm>
+#include <cstring>
 #include <iterator>
 #include <stdio.h>
 #include <string>
