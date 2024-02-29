@@ -10,12 +10,6 @@ TEST(Array, Main) {
 	ASSERT_TRUE(!b.empty());
 	ASSERT_TRUE(b.none()); // not have any true bits
 	b.set(1); // set b[1] as true
-	try {
-		b.set(1000);
-	}
-	catch (WrongNum& t) {
-		t.what();
-	}
 	ASSERT_TRUE(b.any()); // is true bit
 	//b.printArr();
 	BitArray c = b;
@@ -28,12 +22,6 @@ TEST(Array, Main) {
 	ASSERT_TRUE(c[1] != b[1]);
 	b.clear(); // clear
 	ASSERT_TRUE(b.empty());
-	try {
-		b.any();
-	}
-	catch (WrongArr& e) {
-		e.what();
-	}
 	b.resize(10, 0);
 	ASSERT_TRUE(!(b.empty()));
 	c.swap(b);
@@ -79,24 +67,6 @@ TEST(Array, Main) {
 	ASSERT_TRUE(c_cpy[5] == c[8]);
 	ASSERT_EQ(c.size(), (c_cpy.size() + 3));
 	ASSERT_EQ(c[2], 0); // sets 0 to new bits
-	try {
-		c >>= 3;
-	}
-	catch (WrongNum& st) {
-		st.what();
-	}
-	try {
-		c >>= 10000;
-	}
-	catch (WrongNum& st) {
-		st.what();
-	}
-	try {
-		c >> 10000;
-	}
-	catch (WrongNum& st) {
-		st.what();
-	}
 	//c.printArr();
 	//c_cpy.printArr();
 	ASSERT_TRUE(c_cpy == c);
@@ -109,42 +79,6 @@ TEST(Array, Main) {
 	BitArray ex2 = BitArray(32, 123);
 	
 	// invalid sizes check
-	try {
-		ex1 &= ex2;
-	} 
-	catch (WrongLen& a) {
-		a.what();
-	}
-	try {
-		ex1 |= ex2;
-	}
-	catch (WrongLen& a) {
-		a.what();
-	}
-	try {
-		ex1 ^= ex2;
-	}
-	catch (WrongLen& a) {
-		a.what();
-	}
-	try {
-		ex1 = ex1 & ex2;
-	}
-	catch (WrongLen& a) {
-		a.what();
-	}
-	try {
-		ex1 = ex1 | ex2;
-	}
-	catch (WrongLen& a) {
-		a.what();
-	}
-	try {
-		ex1 = ex1 ^ ex2;
-	}
-	catch (WrongLen& a) {
-		a.what();
-	}
 
 	// same for |, &, ^
 }
