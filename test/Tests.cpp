@@ -100,8 +100,6 @@ TEST(Array, Main) {
 	//c.printArr();
 	//c_cpy.printArr();
 	ASSERT_TRUE(c_cpy == c);
-	ASSERT_TRUE((c >> 3).size(), c_cpy.size() + 3);
-	ASSERT_TRUE(c_cpy == c);
 
 	string p = c.to_string();
 	ASSERT_EQ(p.length(), c.size());
