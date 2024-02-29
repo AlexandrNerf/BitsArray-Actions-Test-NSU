@@ -1,0 +1,152 @@
+^C:\USERS\АЛЕКСАНДР\DESKTOP\BITARR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A69716CBC3DADCCB9FA2A3DABB06DD2E\GOOGLETEST-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСАНДР\DESKTOP\BITARR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A69716CBC3DADCCB9FA2A3DABB06DD2E\GOOGLETEST-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Александр\Desktop\Bitarr\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/verify-googletest-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСАНДР\DESKTOP\BITARR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A69716CBC3DADCCB9FA2A3DABB06DD2E\GOOGLETEST-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСАНДР\DESKTOP\BITARR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A69716CBC3DADCCB9FA2A3DABB06DD2E\GOOGLETEST-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСАНДР\DESKTOP\BITARR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A69716CBC3DADCCB9FA2A3DABB06DD2E\GOOGLETEST-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Александр\Desktop\Bitarr\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСАНДР\DESKTOP\BITARR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A69716CBC3DADCCB9FA2A3DABB06DD2E\GOOGLETEST-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Александр\Desktop\Bitarr\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСАНДР\DESKTOP\BITARR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A69716CBC3DADCCB9FA2A3DABB06DD2E\GOOGLETEST-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Александр\Desktop\Bitarr\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСАНДР\DESKTOP\BITARR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\A69716CBC3DADCCB9FA2A3DABB06DD2E\GOOGLETEST-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Александр\Desktop\Bitarr\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСАНДР\DESKTOP\BITARR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\B15EF9B38F5CD89A1B0039E71A1A0E70\GOOGLETEST-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/CMakeFiles/Debug/googletest-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСАНДР\DESKTOP\BITARR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\550253394AE464BD40D9693FEC747736\GOOGLETEST-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСАНДР\DESKTOP\BITARR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild -BC:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild --check-stamp-file C:/Users/Александр/Desktop/Bitarr/build/_deps/googletest-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

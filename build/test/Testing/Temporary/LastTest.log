@@ -1,0 +1,54 @@
+Start testing: Feb 29 13:20 Алтайское стандартное время
+----------------------------------------------------------
+1/1 Testing: TARGET
+1/1 Test: TARGET
+Command: "C:/Users/РђР»РµРєСЃР°РЅРґСЂ/Desktop/Bitarr/build/test/Debug/tests.exe"
+Directory: C:/Users/РђР»РµРєСЃР°РЅРґСЂ/Desktop/Bitarr/build/test
+"TARGET" start time: Feb 29 13:20 Алтайское стандартное время
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Array
+[ RUN      ] Array.Main
+Invalid number in function: set
+Number: 1000
+Invalid varible in function: any
+Array is empty
+Invalid number in function: operator >>=
+Number: 10000
+Invalid number in function: operator >>
+Number: 10000
+Invalid size of arrays in function: operator &=
+A array size: 31
+B array size: 32
+Invalid size of arrays in function: operator |=
+A array size: 32
+B array size: 31
+Invalid size of arrays in function: operator ^=
+A array size: 32
+B array size: 31
+Invalid size of arrays in function: operator &
+A array size: 31
+B array size: 32
+Invalid size of arrays in function: operator |
+A array size: 31
+B array size: 32
+Invalid size of arrays in function: operator ^
+A array size: 31
+B array size: 32
+[       OK ] Array.Main (0 ms)
+[----------] 1 test from Array (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TARGET" end time: Feb 29 13:20 Алтайское стандартное время
+"TARGET" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 29 13:20 Алтайское стандартное время
