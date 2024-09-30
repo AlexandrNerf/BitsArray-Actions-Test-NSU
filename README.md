@@ -1,7 +1,4 @@
-# BitArray-Exercise
-BitArray with dinamic memory realisation by Alexandr Varnakin (NSU, Intellectual Robotics University)
+# GitHub Actions тест
 
-Contains BitArray lib and unit tests
+### Здесь просто была работа с github actions и тестами, не более
 
-Tests.cpp - contains tests
-BitArray.cpp/h - bitarray realization
